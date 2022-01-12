@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  akashcli:
+    build:
+      context: akashcli
+      args:
+        AKASH_VERSION: 0.14.0
+
