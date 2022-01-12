@@ -6,4 +6,6 @@ services:
       context: akashcli
       args:
         AKASH_VERSION: 0.14.0
+    environment:
+      TEMP_WALLET_PASSWORD: changeme
 

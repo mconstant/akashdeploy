@@ -6,6 +6,7 @@ WORKDIR /home/akash
 ARG AKASH_VERSION
 ENV AKASH_VERSION=$AKASH_VERSION
 ENV AKASH_USER=akash
+ENV TEMP_WALLET_PASSWORD=changeme
 
 RUN apt-get update
 RUN apt install zip curl bash -y
