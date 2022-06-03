@@ -8,4 +8,12 @@ services:
         AKASH_VERSION: 0.14.0
     environment:
       TEMP_WALLET_PASSWORD: changeme
+      AKT_WALLET_SEED: ${AKT_WALLET_SEED}
+    stdin_open: true
+    tty: true
+#  minecraft:
+#    build:
+#      context: minecraft
+
+
 
