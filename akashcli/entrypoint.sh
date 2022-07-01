@@ -26,5 +26,3 @@ echo "log into the container and run the deploy script"
 #yes $TEMP_WALLET_PASSWORD | ./script/deploy.sh
 
 bash
-
-
